@@ -15,7 +15,7 @@ The labels in the above dataset are having multiple classes, The code for conver
 All the models used are trained form scratch with no pre-trained models. 
 ## 1)  Fully Convolutional Networks(FCN):
 One of the first deep learning works for semantic image segmentation, using a fully convolutional network (FCN). An FCN includes only convolutional layers, which enables it to take an image of arbitrary size and produce a segmentation map of the same size.\
-Code for FCN : [***********************]
+Code for FCN : [FCN Training.ipynb]
 ### Results of FCN:[**********************]
 
 ### Limitations of FCN:
@@ -23,7 +23,7 @@ It is not fast enough for real-time inference, it does not take into account the
 
 ## 2) U-Net:
 The U-Net architecture comprises two parts, a contracting path to capture context, and a symmetric expanding path that enables precise localization. The down-sampling or contracting part has a FCN-like architecture that extracts features with 3 × 3 convolutions. The up-sampling or expanding part uses up-convolution (or deconvolution), reducing the number of feature maps while increasing their dimensions.\
-Code for U-Net : [***********************]
+Code for U-Net : [U-Net Training.ipynb](https://github.com/U-Abhishek/Road-Segmentation/blob/master/UNet%20Training.ipynb)
 ### Results of U-Net :[**********************]
 
 
