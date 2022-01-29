@@ -11,9 +11,8 @@ It contains images of asphalt roads, unpaved, different paved roads and transiti
 ![0](https://user-images.githubusercontent.com/86155658/151662051-78672c28-ebca-48ce-8cf6-5edc21d0a61b.png)
 
 
-
-## Data Preprocessing
-The labels in the above dataset are having multiple classes, The code for converiting all the multy class labels are converted into binary labels is in this notebook [**********].
+## Data Processing
+The labels in the above dataset are having multiple classes, The code for converiting all the multy class labels are converted into binary labels is procided in the following  notebook [**********].
 
 ## Models:
 All the models used are trained form scratch with no pre-trained models. 
