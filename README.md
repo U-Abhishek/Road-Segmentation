@@ -12,13 +12,12 @@ It contains images of asphalt roads, unpaved, different paved roads and transiti
 
 
 ## Data Processing
-The labels in the above dataset are having multiple classes, The code for converiting all the multy class labels are converted into binary labels is procided in the following  notebook [MultyC_to_BinryC_Convertor .ipynb].\
+The labels in the above dataset are having multiple classes, The code for converiting all the multy class labels are converted into binary labels is procided in the following  notebook [MultyC_to_BinryC_Convertor .ipynb](https://github.com/U-Abhishek/Road-Segmentation/blob/master/MultyC_to_BinryC_Convertor%20.ipynb).\
 ![37](https://user-images.githubusercontent.com/86155658/151662285-649e0a38-e828-43dd-9474-06d4112dac44.png)
 ![37](https://user-images.githubusercontent.com/86155658/151662298-26f3f80d-30e6-42a7-bd62-ce3a53264a5f.png)
 
 
 ## Models:
-All the models used are trained form scratch with no pre-trained models. 
 ## 1)  Fully Convolutional Networks(FCN):
 One of the first deep learning works for semantic image segmentation, using a fully convolutional network (FCN). An FCN includes only convolutional layers, which enables it to take an image of arbitrary size and produce a segmentation map of the same size.
 
@@ -35,3 +34,5 @@ The U-Net architecture comprises two parts, a contracting path to capture contex
 ### Results of U-Net 
 ![image](https://user-images.githubusercontent.com/86155658/151661584-a5d80a39-2bb1-42e0-a54b-16dbc51d2a2a.png)
 ![image](https://user-images.githubusercontent.com/86155658/151661611-9efc209a-c945-44af-aa74-ca43e9e59513.png)
+
+All the models used are trained form scratch with no pre-trained models. 
