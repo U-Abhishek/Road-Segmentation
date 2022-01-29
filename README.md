@@ -12,7 +12,7 @@ It contains images of asphalt roads, unpaved, different paved roads and transiti
 
 
 ## Data Processing
-The labels in the above dataset are having multiple classes, The code for converiting all the multy class labels are converted into binary labels is procided in the following  notebook [**********].\
+The labels in the above dataset are having multiple classes, The code for converiting all the multy class labels are converted into binary labels is procided in the following  notebook [MultyC_to_BinryC_Convertor .ipynb].\
 ![37](https://user-images.githubusercontent.com/86155658/151662285-649e0a38-e828-43dd-9474-06d4112dac44.png)
 ![37](https://user-images.githubusercontent.com/86155658/151662298-26f3f80d-30e6-42a7-bd62-ce3a53264a5f.png)
 
